@@ -70,7 +70,12 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-6 text-xs text-mist flex flex-col md:flex-row justify-between gap-2">
           <div>© {year} Jaeger Longevity. All rights reserved.</div>
-          <div>Built in the UAE.</div>
+          <div className="flex gap-6">
+            <span>Built in the UAE.</span>
+            <Link href="/coach/login" className="hover:text-bone">
+              Coach Login
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
