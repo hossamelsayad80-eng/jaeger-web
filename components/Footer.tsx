@@ -35,6 +35,16 @@ export default function Footer() {
                 Privacy Policy
               </Link>
             </li>
+            <li>
+              <Link href="/terms" className="hover:text-bone">
+                Terms of Service
+              </Link>
+            </li>
+            <li>
+              <Link href="/delete-account" className="hover:text-bone">
+                Delete Account
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -60,6 +70,9 @@ export default function Footer() {
       <div className="border-t border-white/5">
         <div className="mx-auto max-w-7xl px-6 lg:px-10 py-6 text-xs text-mist flex flex-col md:flex-row justify-between gap-2">
           <div>© {year} Jaeger Longevity. All rights reserved.</div>
+          <Link href="/coach/login" className="hover:text-bone">
+            Coach Login
+          </Link>
         </div>
       </div>
     </footer>
