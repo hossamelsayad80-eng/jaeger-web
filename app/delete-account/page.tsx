@@ -63,10 +63,10 @@ export default function DeleteAccountPage() {
             <p>
               <strong className="text-bone">Email:</strong>{" "}
               <a
-                href="mailto:hossamelsayad80@gmail.com"
+                href="mailto:hossamelsayad@jaegerlongevity.com"
                 className="text-gold hover:underline"
               >
-                hossamelsayad80@gmail.com
+                hossamelsayad@jaegerlongevity.com
               </a>
             </p>
             <p>
